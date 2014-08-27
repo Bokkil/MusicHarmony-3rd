@@ -1,6 +1,6 @@
 ## Setting Guide
 
-- \`$ git clone https://YOURID@bitbucket.org/mango4/frontend.git\`
+- \`$ git clone https://bokkil@bitbucket.org/mango4/frontend.git\`
 
 - \`$ sudo gem install compass\`
 
