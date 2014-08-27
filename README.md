@@ -1,11 +1,9 @@
 ## Setting Guide
 
-- \`$ git clone https://bokkil@bitbucket.org/mango4/frontend.git\`
+- `$ git clone https://bokkil@bitbucket.org/mango4/frontend.git`
 
-- \`$ sudo gem install compass\`
+- `$ sudo gem install compass`
 
-- \`$ npm install\`
+- `$ npm install`
 
-- \`$ bower install\`
-
-
+- `$ bower install`
