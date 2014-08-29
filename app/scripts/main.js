@@ -12,12 +12,16 @@ require.config({
         jquery: '../bower_components/jquery/dist/jquery',
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/lodash/dist/lodash',
-        bootstrap: '../bower_components/sass-bootstrap/dist/js/bootstrap'
+        bootstrap: '../bower_components/sass-bootstrap/dist/js/bootstrap',
+        text: '../bower_components/requirejs-text/text'
     }
 });
 
 require([
-    'backbone'
-], function (Backbone) {
+    'backbone', 'views/topbar'
+], function (Backbone, TopbarV) {
     Backbone.history.start();
+
+    var topbar = new TopbarV();
+    topbar.render();
 });
