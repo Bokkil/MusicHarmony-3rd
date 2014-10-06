@@ -1,6 +1,6 @@
 {
-  "name": "teammango",
-  "version": "0.0.0",
+  "name": "musichub",
+  "version": "0.1.0",
   "dependencies": {
     "sass-bootstrap": "~3.0.2",
     "jquery": "~2.1.0",
@@ -10,7 +10,8 @@
     "requirejs-text": "~2.0.10",
     "modernizr": "~2.7.1",
     "mocha": "~1.21.4",
-    "chai": "~1.9.1"
+    "chai": "~1.9.1",
+    "smoothie": "1.27"
   },
   "devDependencies": {}
 }

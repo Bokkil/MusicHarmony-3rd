@@ -4,7 +4,7 @@
 
 - `$ brew install node`
 
-- `$ git clone https://bokkil@bitbucket.org/mango4/frontend.git`
+- `$ git clone https://github.com/Bokkil/MusicHarmony-3rd.git'
 
 - `$ sudo gem install compass`
 

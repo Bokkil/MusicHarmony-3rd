@@ -13,15 +13,18 @@ require.config({
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/lodash/dist/lodash',
         bootstrap: '../bower_components/sass-bootstrap/dist/js/bootstrap',
-        text: '../bower_components/requirejs-text/text'
+        text: '../bower_components/requirejs-text/text',
+        smoothie: '../bower_components/smoothie/smoothie'
     }
 });
 
 require([
-    'backbone', 'views/topbar'
-], function (Backbone, TopbarV) {
-    Backbone.history.start();
-
-    var topbar = new TopbarV();
-    topbar.render();
+    'backbone', 'routes/router'
+], function (Backbone, Router) {
+    window.router = new Router();
+    console.log (window.router);
+    Backbone.history.start({
+        pushState: true,
+        root: "/"
+    });
 });
